@@ -1,0 +1,36 @@
+.navbar {
+  font-family: 'Outfit', sans-serif;
+  font-size: large;
+}
+
+.barra{
+  display: flex;
+  align-content: center;
+}
+
+#landing{
+  color:white;
+  background-image: url("../assets/fondo.jpg");
+  position: absolute;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: repeat;
+  resize:both;
+  overflow: scroll;
+}
+
+li:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0 0.5em;
+  }
+  .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 2px solid #000000;
+  }
+}
