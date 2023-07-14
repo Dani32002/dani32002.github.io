@@ -4,11 +4,12 @@ div {
 
 .celda {
   margin: 0 1%;
-  width: 20%;
-  height: 100%;
-  display: table-cell;
+  width: 10em;
+  height: 3em;
+  display: flex;
   vertical-align: middle;
-  text-align: center;
+  justify-content: center;
+
 }
 
 #tech{
@@ -57,11 +58,9 @@ span{
 }
 
 #con {
-  display: flex;
-  vertical-align: middle;
   font-weight: bold;
   font-size: larger;
-  padding: 1%;
+
 }
 
 @font-face {
@@ -80,4 +79,24 @@ h2 {
   border-style:solid;
   border-radius: 5px;
   margin-bottom: 2%;
+}
+
+img#logo {
+  height: 1.5em;
+}
+
+#logo2{
+  height: 1.5em;
+  padding-left: 4%;
+  vertical-align: middle;
+}
+
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+a{
+  color: white;
+  text-decoration: none;
 }
