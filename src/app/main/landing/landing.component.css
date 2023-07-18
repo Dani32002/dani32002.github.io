@@ -15,6 +15,7 @@ div {
 #tech{
   margin:auto;
   padding: 3%;
+
 }
 
 #lineas {
@@ -31,10 +32,11 @@ div {
 h3 {
   text-align: center;
   color: #97DB4F;
+  word-wrap: normal;
 }
 
 .flag {
-  height: 60%;
+  height: 70%;
 }
 
 .level {
