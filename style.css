@@ -1,0 +1,263 @@
+
+body {
+    background-color: #121212;
+}
+
+#techn {
+    padding-bottom: 6%;
+}
+
+.navbar-brand {
+    padding-left: 2%;
+}
+
+.navbar-toggler {
+    margin-right: 2%;
+}
+
+#descText {
+    text-align: justify;
+}
+
+#descCard {
+    padding: 3%;
+}
+
+#miniLogo {
+    border-radius: 3px;
+}
+
+div#descriptionContainer {
+    background-color: rgba(77,83,89, 1);
+    border-radius: 10px;
+}
+
+.navbar-nav {
+    padding-left: 2.5% !important;
+}
+
+h1#name {
+    color: white; 
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bolder; 
+    text-transform: uppercase; 
+    padding-bottom: 2%; 
+    padding-top: 1%;
+}
+
+a.nav-link {
+    font-family: 'Outfit', sans-serif;
+    font-size: large;
+    color: white !important;
+    padding-left: 3%;
+}
+
+a.nav-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navigationBar{
+    align-content: center;
+}
+
+#landing{
+    color:white;
+    background-color: black;
+    background-image: url("rm380-11.jpg");
+    position: absolute;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: repeat;
+    resize:both;
+    overflow: scroll;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0 0.5em;
+    }
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+        border-right: 2px solid white;
+    }
+}  
+
+div {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.celda {
+    margin: 0 1%;
+    width: 10em !important;
+    height: 3em;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;  
+    background-color: rgba(77,83,89, 1); 
+    border-radius: 10px; 
+}
+
+span.contactText {
+    vertical-align: middle;
+}
+
+.tech{
+    margin:auto;
+    padding: 3%;
+    text-transform: capitalize; 
+    display: inline-block; 
+    padding: 2%;
+}
+
+#techContent {
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.language {
+    margin: 0 1%;
+    width: 20% !important;
+    background-color: rgba(77,83,89, 1) !important; 
+    padding: 0% !important;
+    color: white !important;
+}
+
+h3 {
+    text-align: center;
+    word-wrap: normal;
+}
+
+.flag {
+    height: 70%;
+}
+
+.level {
+    text-align: center;
+    color: white;
+}
+
+.exp {
+    box-shadow: 0 0 10px 2px #121212;
+    border-color: black;
+    border-width: 0.2em;
+    border-style:solid;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: black;
+}
+
+span{
+    padding: 1%;
+}
+
+.con {
+    font-weight: bold !important;
+    font-size: larger !important;
+    border-radius: 0px; 
+    color: white !important;
+}
+
+h2 {
+    color:white;
+    font-family: 'Share Tech Mono', monospace;
+    text-transform: uppercase;
+    background-color: black;
+    width: fit-content !important;
+    box-shadow: 0 0 10px 2px #121212;
+    border-color: black;
+    border-width: 0.1em;
+    border-style:solid;
+    border-radius: 5px;
+    margin-bottom: 2% !important;
+}
+
+img.logoTech {
+    height: 1.5em;
+}
+
+.logoContact{
+    height: 1.5em;
+    padding-left: 4%;
+    vertical-align: middle;
+}
+
+a.contLink:hover{
+    color: white;
+    text-decoration: underline !important;
+}
+
+a.contLink{
+    color: white !important;
+    text-decoration: none !important;
+    display: flex; 
+    justify-content: center; 
+    margin: auto; 
+    padding: 4% 0% 2% 0%;
+}
+  
+button#cvButton {
+    background-color: black; 
+    border-color: white; 
+    border-width: 0.2em; 
+    color: white;
+}
+
+div#photoContainer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+img#mainPhoto {
+    height: 20em; 
+    border-radius: 10px;
+}
+
+div#technologiesContainer {
+    padding-top: 3%; 
+    box-shadow: 0 0 10px 2px #121212; 
+    border-color: black;
+    border-width: 0.4em; 
+    border-style:solid; 
+    border-radius: 5px;
+}
+
+div#technologyRow {
+    text-align: center; 
+    padding-bottom: 1.5%; 
+    display: flex; 
+    justify-content: center;
+}
+
+div#languageContainer {
+    padding-top: 7%; 
+    padding-bottom: 5%;
+}
+
+div#languageRow {
+    text-align: center; 
+    padding-bottom: 2%;  
+    display: flex; 
+    justify-content: center;
+}
+
+div#languageCardRow {
+    display: flex; 
+    justify-content: center;
+}
+
+div#educationContainer {
+    padding-top: 2%; 
+    padding-bottom: 5%;
+}
+
+div#educationRow {
+    margin-bottom: 1%; 
+    text-align: center;  
+    display: flex; 
+    justify-content: center;
+}
