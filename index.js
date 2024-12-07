@@ -1,14 +1,15 @@
 let containerSkills = document.getElementById('techContent');
 let containerExperience = document.getElementById('educationContainer');
 
-techs = ["git", "python", "java", "angular", "SQL", "javascript", "typescript", "github", "C", "HTML", "CSS", "IA-32 ASM", "spring", "GCP", "django", "mongoDB", "express", "reactJs", "redux", "nodeJs", "postgreSQL", "nestJs", "ML", "scikit", "dataprep", "GAMS"];
+techs = ["git", "python", "java", "angular", "SQL", "javascript", "typescript", "github", "C", "HTML", "CSS", "IA-32 ASM", "spring", "GCP", "django", "mongoDB", "express", "reactJs", "redux", "nodeJs", "postgreSQL", "nestJs", "scikit", "dataprep", "kotlin", "compose", "android", "flask", "docker"];
 
 experience = [
     "High School - Fundación Educativa Rochester (Bogota, Colombia) - 2021 - Nominee for International Scholarship",
     "Undergraduate Software and Computer Engineering Program - Universidad de Los Andes (Bogota, Colombia) - 2025 - GPA: 4.86",
-    "Class Assistant - Course: Fundamentals of Technologic Infrastructure - Universidad de Los Andes (Bogota, Colombia) - 2023",
-    "Class Assistant - Course: Team Software Development - Universidad de Los Andes (Bogota, Colombia) - 2023",
-    "Investigation Assistant - Course: Team Software Development - Universidad de Los Andes (Bogota, Colombia) - 2024"
+    "Teaching Assistant - Course: Fundamentals of Technologic Infrastructure - Universidad de Los Andes (Bogota, Colombia) - 2023",
+    "Teaching Assistant - Course: Team Software Development - Universidad de Los Andes (Bogota, Colombia) - 2023",
+    "Investigation Assistant - Course: Team Software Development - Universidad de Los Andes (Bogota, Colombia) - 2024",
+    "Teaching Assistant - Course: Communications Infrastructure - Universidad de Los Andes (Bogota, Colombia) - 2024"
 ]
 
 techs.forEach(tech => {
