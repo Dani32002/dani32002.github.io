@@ -1,7 +1,7 @@
 let containerSkills = document.getElementById('techContent');
 let containerExperience = document.getElementById('educationContainer');
 
-techs = ["git", "python", "java", "angular", "SQL", "javascript", "typescript", "linux" , "C", "HTML", "CSS", "IA-32 ASM", "spring", "GCP", "django", "mongoDB", "express", "reactJs", "redux", "nodeJs", "postgreSQL", "nestJs", "scikit", "dataprep", "kotlin", "compose", "android", "flask", "docker", "packet tracer"];
+techs = ["git", "python", "java", "angular", "SQL", "javascript", "typescript", "linux" , "C", "HTML", "CSS", "IA-32 ASM", "spring", "GCP", "django", "mongoDB", "express", "reactJs", "redux", "nodeJs", "postgreSQL", "nestJs", "scikit", "dataprep", "kotlin", "compose", "android", "flask", "docker", "cisco PT"];
 
 experience = [
     "High School - Fundación Educativa Rochester (Bogota, Colombia) - 2021 - Nominee for International Scholarship",
