@@ -5,7 +5,7 @@ techs = ["git", "python", "java", "angular", "SQL", "javascript", "typescript", 
 
 experience = [
     "High School - Fundación Educativa Rochester (Bogota, Colombia) - 2021 - Nominee for International Scholarship",
-    "Undergraduate Software and Computer Engineering Program - Universidad de Los Andes (Bogota, Colombia) - 2025 - GPA: 4.86",
+    "Undergraduate Software and Computer Engineering Program - Universidad de Los Andes (Bogota, Colombia) - 2025 - GPA: 4.87",
     "Teaching Assistant - Course: Fundamentals of Technologic Infrastructure - Universidad de Los Andes (Bogota, Colombia) - 2023",
     "Teaching Assistant - Course: Team Software Development - Universidad de Los Andes (Bogota, Colombia) - 2023",
     "Investigation Assistant - Course: Team Software Development - Universidad de Los Andes (Bogota, Colombia) - 2024",
