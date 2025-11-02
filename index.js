@@ -1,7 +1,50 @@
 let containerSkills = document.getElementById('techContent');
 let containerExperience = document.getElementById('educationContainer');
 
-techs = ["git", "python", "java", "angular", "SQL", "javascript", "typescript", "linux" , "C", "HTML", "CSS", "IA-32 ASM", "spring", "GCP", "django", "mongoDB", "express", "reactJs", "redux", "nodeJs", "postgreSQL", "nestJs", "scikit", "dataprep", "kotlin", "compose", "android", "flask", "docker", "cisco PT"];
+techs = [
+    "git", 
+    "python", 
+    "java", 
+    "angular", 
+    "SQL", 
+    "javascript", 
+    "typescript", 
+    "linux" , 
+    "C", 
+    "HTML", 
+    "CSS", 
+    "IA-32 ASM", 
+    "spring", 
+    "GCP", 
+    "django", 
+    "mongoDB", 
+    "express", 
+    "reactJs", 
+    "redux", 
+    "nodeJs", 
+    "postgreSQL", 
+    "nestJs", 
+    "scikit", 
+    "kotlin", 
+    "compose", 
+    "android", 
+    "flask", 
+    "docker", 
+    "cisco PT", 
+    "K8s", 
+    "Helm", 
+    "Jenkins", 
+    "Ansible", 
+    "PromQL", 
+    "AZ-900", 
+    "Terraform", 
+    "Pytorch", 
+    "TensorFlow", 
+    "LangChain", 
+    "LLMs", 
+    "Transformer", 
+    "Agents"
+];
 
 experience = [
     "High School - Fundación Educativa Rochester (Bogota, Colombia) - 2021 - Nominee for International Scholarship",
@@ -9,7 +52,8 @@ experience = [
     "Teaching Assistant - Course: Fundamentals of Technologic Infrastructure - Universidad de Los Andes (Bogota, Colombia) - 2023",
     "Teaching Assistant - Course: Team Software Development - Universidad de Los Andes (Bogota, Colombia) - 2023",
     "Investigation Assistant - Course: Team Software Development - Universidad de Los Andes (Bogota, Colombia) - 2024",
-    "Teaching Assistant - Course: Communications Infrastructure - Universidad de Los Andes (Bogota, Colombia) - 2024"
+    "Teaching Assistant - Course: Communications Infrastructure - Universidad de Los Andes (Bogota, Colombia) - 2024/2025",
+    "Cloud Engineering Intern - Amadeus IT Group - June 2025 - December 2025"
 ]
 
 techs.forEach(tech => {
