@@ -1,5 +1,7 @@
-let containerSkills = document.getElementById('techContent');
-let containerExperience = document.getElementById('educationContainer');
+const containerSkills = document.getElementById('techContent');
+const containerExperience = document.getElementById('educationContainer');
+const containerCertifications = document.getElementById('certContainer');
+
 
 techs = [
     "git", 
@@ -56,10 +58,41 @@ experience = [
     "Cloud Engineering Intern - Amadeus IT Group - June 2025 - December 2025"
 ]
 
+certificates = [
+    {
+        name: "Efficient Large Language Model (LLM) Customization - NVIDIA - 2025",
+        image: "nvidia.jpeg",
+    },
+    {
+        name: "Rapid Application Development with Large Language Models (LLMs) - NVIDIA - 2025",
+        image: "nvidia.jpeg",
+    },
+    {
+        name: "Building LLM Applications With Prompt Engineering - NVIDIA - 2025",
+        image: "nvidia.jpeg",
+    },
+    {
+        name: "Building Transformer-Based Natural Language Processing Applications - NVIDIA - 2025",
+        image: "nvidia.jpeg",
+    },
+    {
+        name: "Fundamentals of Deep Learning - NVIDIA - 2025",
+        image: "nvidia.jpeg",
+    },
+    {
+        name: "Desarrollo de apps para Android con Jetpack Compose y Kotlin - Udemy - 2024",
+        image: "udemy.jpeg",
+    },
+];
+
 techs.forEach(tech => {
     containerSkills.innerHTML += `<div class = "col-12 col-sm-4 celda mb-3"><p class = "tech"><img class="logoTech" src="./assets/${tech.toLowerCase()}.png" alt="${tech}"> ${tech}</p></div>`;
 });
 
 experience.forEach(exp => {
-    containerExperience.innerHTML += `<div class="row exp"><span>${exp}</span></div>`
+    containerExperience.innerHTML += `<div class="row listItem"><span>${exp}</span></div>`
+});
+
+certificates.forEach(cert => {
+    containerCertifications.innerHTML += `<div class="row listItem certRow"><img class="certImage" src="./assets/${cert.image.toLowerCase()}" alt="${cert.name}"><span class="certSpan">${cert.name}</span></div>`
 });

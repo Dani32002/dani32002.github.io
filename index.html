@@ -29,10 +29,13 @@
                     <a class="nav-link pos" href="#desc">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link pos" href="#techn">Technologies</a>
+                    <a class="nav-link pos" href="#technologiesContainer">Technologies</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link pos" href="#languageContainer">Languages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pos" href="#certs">Certificates</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link pos" href="#educationContainer">Education and Experience</a>
@@ -45,9 +48,9 @@
     </nav>
     <div id = "landing">
         <!-- Descripcion -->
-        <div class="container pt-5 mt-5" id = "desc">
-          <div class="row">
-            <div id = "descriptionContainer" class="col-12 col-md-8 mb-4">
+        <div class="container home" id = "desc">
+          <div class="row" id = "descRow">
+            <div id = "descriptionContainer" class="col-12 col-md-7">
               <div id = "descCard">
                 <h1 id = "name">Daniel Escalante Perez</h1>
                 <p id = "descText">
@@ -64,18 +67,18 @@
                 </a>
               </div>
             </div>
-            <div id = "photoContainer" class="col-12 col-md-4">
+            <div id = "photoContainer" class="col-12 col-md-5">
+              <img id = "mainPhoto" src="./assets/pfp2.jpg" alt="pfp">
               <img id = "mainPhoto" src="./assets/pfp.jpg" alt="pfp">
             </div>
           </div>
         </div>
-        <div id = "techn"></div>
         <!-- Tecnologias -->
         <div id = "technologiesContainer" class = "container">
           <div id = "technologyRow" class = "row">
             <h2>Technologies</h2>
           </div>
-          <div class = "row container"  id = "techContent">
+          <div class = "row"  id = "techContent">
           </div>
         </div>
         <!-- Lenguajes -->
@@ -107,9 +110,16 @@
             </div>
           </div>
         </div>
+        <!-- Certificados -->
+        <div id = "certs"></div>
+        <div id = "certContainer" class = "container listContainer">
+          <div id = "certRow" class="row listRow">
+            <h2>Certificates</h2>
+          </div>
+        </div>
         <!-- Educación y Experiencia -->
-        <div id = "educationContainer" class = "container">
-          <div id = "educationRow" class="row">
+        <div id = "educationContainer" class = "container listContainer">
+          <div id = "educationRow" class="row listRow">
             <h2>Education and Experience</h2>
           </div>
         </div>

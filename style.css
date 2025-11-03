@@ -3,12 +3,20 @@ body {
     background-color: #121212;
 }
 
-#techn {
-    padding-bottom: 6%;
-}
-
 .navbar-brand {
     padding-left: 2%;
+}
+
+.home {
+    margin-top: 100px !important;
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+#descRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
 }
 
 .navbar-toggler {
@@ -105,7 +113,6 @@ span.contactText {
 
 .tech{
     margin:auto;
-    padding: 3%;
     text-transform: capitalize; 
     display: inline-block; 
     padding: 2%;
@@ -139,8 +146,7 @@ h3 {
     color: white;
 }
 
-.exp {
-    box-shadow: 0 0 10px 2px #121212;
+.listItem {
     border-color: black;
     border-width: 0.2em;
     border-style:solid;
@@ -148,6 +154,7 @@ h3 {
     margin-bottom: 2%;
     text-align: center;
     background-color: black;
+    width: 90%;
 }
 
 span{
@@ -157,8 +164,17 @@ span{
 .con {
     font-weight: bold !important;
     font-size: larger !important;
-    border-radius: 0px; 
+    border-radius: 0px !important; 
     color: white !important;
+}
+
+.container {
+    border-color: black;
+    border-width: 0.4em; 
+    border-style:solid; 
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -167,7 +183,6 @@ h2 {
     text-transform: uppercase;
     background-color: black;
     width: fit-content !important;
-    box-shadow: 0 0 10px 2px #121212;
     border-color: black;
     border-width: 0.1em;
     border-style:solid;
@@ -207,9 +222,11 @@ button#cvButton {
 }
 
 div#photoContainer {
-    display: flex; 
-    justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px !important;
+    justify-content: space-evenly;
 }
 
 img#mainPhoto {
@@ -219,7 +236,6 @@ img#mainPhoto {
 
 div#technologiesContainer {
     padding-top: 3%; 
-    box-shadow: 0 0 10px 2px #121212; 
     border-color: black;
     border-width: 0.4em; 
     border-style:solid; 
@@ -234,8 +250,9 @@ div#technologyRow {
 }
 
 div#languageContainer {
-    padding-top: 7%; 
+    padding-top: 5%; 
     padding-bottom: 5%;
+    
 }
 
 div#languageRow {
@@ -250,14 +267,30 @@ div#languageCardRow {
     justify-content: center;
 }
 
-div#educationContainer {
+div.listContainer {
     padding-top: 2%; 
-    padding-bottom: 5%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
 }
 
-div#educationRow {
+div.listRow {
     margin-bottom: 1%; 
     text-align: center;  
     display: flex; 
     justify-content: center;
+}
+
+.certImage {
+    width: 8% !important;
+}
+
+.certSpan {
+    width: 90% !important;}
+
+.certRow {
+    align-items: center;
+    padding: 1% !important;
 }
